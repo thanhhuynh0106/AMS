@@ -13,7 +13,8 @@ const App = () => {
   return (
     <div>
       <Navbar/>
-
+      <Home/>
+      <Search/>
     </div>
   );
 };
