@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "./components/navbar/navbar";
-import Home from "./components/home/home";
+import Home from "./components/home/Home";
 import Search from "./components/search/Search";
 import Support from "./components/support/Support";
 import Info from "./components/info/Info";
@@ -15,6 +15,12 @@ const App = () => {
       <Navbar/>
       <Home/>
       <Search/>
+      <Support/>
+      <Info/>
+      <Lounge/>
+      {/* <Travelers/> */}
+      <Subcribers/>
+      <Footer/>
     </div>
   );
 };
